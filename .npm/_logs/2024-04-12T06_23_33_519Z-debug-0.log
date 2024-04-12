@@ -1,0 +1,187 @@
+0 verbose cli /usr/local/bin/node /usr/local/bin/npm
+1 info using npm@9.8.1
+2 info using node@v19.9.0
+3 timing npm:load:whichnode Completed in 3ms
+4 timing config:load:defaults Completed in 3ms
+5 timing config:load:file:/usr/local/lib/node_modules/npm/npmrc Completed in 83ms
+6 timing config:load:builtin Completed in 84ms
+7 timing config:load:cli Completed in 102ms
+8 timing config:load:env Completed in 1ms
+9 timing config:load:project Completed in 93ms
+10 timing config:load:file:/home/container/.npmrc Completed in 0ms
+11 timing config:load:user Completed in 0ms
+12 timing config:load:file:/usr/local/etc/npmrc Completed in 6ms
+13 timing config:load:global Completed in 7ms
+14 timing config:load:setEnvs Completed in 1ms
+15 timing config:load Completed in 292ms
+16 timing npm:load:configload Completed in 292ms
+17 timing config:load:flatten Completed in 4ms
+18 timing npm:load:mkdirpcache Completed in 0ms
+19 timing npm:load:mkdirplogs Completed in 1ms
+20 verbose title npm install
+21 verbose argv "install"
+22 timing npm:load:setTitle Completed in 1ms
+23 timing npm:load:display Completed in 1ms
+24 verbose logfile logs-max:10 dir:/home/container/.npm/_logs/2024-04-12T06_23_33_519Z-
+25 verbose logfile /home/container/.npm/_logs/2024-04-12T06_23_33_519Z-debug-0.log
+26 timing npm:load:logFile Completed in 87ms
+27 timing npm:load:timers Completed in 0ms
+28 timing npm:load:configScope Completed in 0ms
+29 timing npm:load Completed in 487ms
+30 timing arborist:ctor Completed in 1ms
+31 silly logfile start cleaning logs, removing 1 files
+32 silly logfile done cleaning log files
+33 timing idealTree:init Completed in 592ms
+34 timing idealTree:userRequests Completed in 0ms
+35 silly idealTree buildDeps
+36 timing idealTree:#root Completed in 1ms
+37 timing idealTree:buildDeps Completed in 91ms
+38 timing idealTree:fixDepFlags Completed in 0ms
+39 timing idealTree Completed in 690ms
+40 timing arborist:ctor Completed in 0ms
+41 timing reify:loadTrees Completed in 895ms
+42 timing reify:diffTrees Completed in 94ms
+43 silly reify moves {}
+44 timing reify:retireShallow Completed in 2ms
+45 timing reify:createSparse Completed in 0ms
+46 timing reify:loadBundles Completed in 0ms
+47 silly audit bulk request {
+47 silly audit   '@discordjs/builders': [ '1.7.0' ],
+47 silly audit   '@discordjs/collection': [ '1.5.3', '2.0.0' ],
+47 silly audit   '@discordjs/formatters': [ '0.3.3' ],
+47 silly audit   '@discordjs/rest': [ '2.2.0' ],
+47 silly audit   '@discordjs/util': [ '1.0.2' ],
+47 silly audit   '@discordjs/ws': [ '1.0.2' ],
+47 silly audit   '@fastify/busboy': [ '2.1.1' ],
+47 silly audit   '@mongodb-js/saslprep': [ '1.1.5' ],
+47 silly audit   '@sapphire/async-queue': [ '1.5.2' ],
+47 silly audit   '@sapphire/shapeshift': [ '3.9.7' ],
+47 silly audit   '@sapphire/snowflake': [ '3.5.1' ],
+47 silly audit   '@types/node': [ '20.12.3' ],
+47 silly audit   '@types/webidl-conversions': [ '7.0.3' ],
+47 silly audit   '@types/whatwg-url': [ '8.2.2' ],
+47 silly audit   '@types/ws': [ '8.5.9' ],
+47 silly audit   '@vladfrangu/async_event_emitter': [ '2.2.4' ],
+47 silly audit   'ansi-styles': [ '3.2.1' ],
+47 silly audit   bson: [ '5.5.1' ],
+47 silly audit   chalk: [ '2.4.2' ],
+47 silly audit   'color-convert': [ '1.9.3' ],
+47 silly audit   'color-name': [ '1.1.3' ],
+47 silly audit   debug: [ '4.3.4' ],
+47 silly audit   ms: [ '2.1.2', '2.1.3' ],
+47 silly audit   'discord-api-types': [ '0.37.61' ],
+47 silly audit   'discord.js': [ '14.14.1' ],
+47 silly audit   dotenv: [ '16.4.5' ],
+47 silly audit   'escape-string-regexp': [ '1.0.5' ],
+47 silly audit   'fast-deep-equal': [ '3.1.3' ],
+47 silly audit   'has-flag': [ '3.0.0' ],
+47 silly audit   'ip-address': [ '9.0.5' ],
+47 silly audit   jsbn: [ '1.1.0' ],
+47 silly audit   kareem: [ '2.5.1' ],
+47 silly audit   lodash: [ '4.17.21' ],
+47 silly audit   'lodash.snakecase': [ '4.1.1' ],
+47 silly audit   'magic-bytes.js': [ '1.10.0' ],
+47 silly audit   'memory-pager': [ '1.5.0' ],
+47 silly audit   mongodb: [ '5.9.1' ],
+47 silly audit   'mongodb-connection-string-url': [ '2.6.0' ],
+47 silly audit   mongoose: [ '7.6.10' ],
+47 silly audit   mpath: [ '0.9.0' ],
+47 silly audit   mquery: [ '5.0.0' ],
+47 silly audit   'parse-ms': [ '4.0.0' ],
+47 silly audit   'pretty-ms': [ '9.0.0' ],
+47 silly audit   punycode: [ '2.3.1' ],
+47 silly audit   sift: [ '16.0.1' ],
+47 silly audit   'smart-buffer': [ '4.2.0' ],
+47 silly audit   socks: [ '2.8.1' ],
+47 silly audit   'sparse-bitfield': [ '3.0.3' ],
+47 silly audit   'sprintf-js': [ '1.1.3' ],
+47 silly audit   'supports-color': [ '5.5.0' ],
+47 silly audit   tr46: [ '3.0.0' ],
+47 silly audit   'ts-mixer': [ '6.0.4' ],
+47 silly audit   tslib: [ '2.6.2' ],
+47 silly audit   undici: [ '5.27.2' ],
+47 silly audit   'undici-types': [ '5.26.5' ],
+47 silly audit   'webidl-conversions': [ '7.0.0' ],
+47 silly audit   'whatwg-url': [ '11.0.0' ],
+47 silly audit   ws: [ '8.14.2' ]
+47 silly audit }
+48 timing reify:unpack Completed in 6ms
+49 timing reify:unretire Completed in 0ms
+50 timing build:queue Completed in 0ms
+51 timing build:deps Completed in 1ms
+52 timing build Completed in 1ms
+53 timing reify:build Completed in 18ms
+54 timing reify:trash Completed in 0ms
+55 timing reify:save Completed in 277ms
+56 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 806ms
+57 timing auditReport:getReport Completed in 904ms
+58 silly audit report {
+58 silly audit report   undici: [
+58 silly audit report     {
+58 silly audit report       id: 1096969,
+58 silly audit report       url: 'https://github.com/advisories/GHSA-9qxr-qj54-h672',
+58 silly audit report       title: "Undici's fetch with integrity option is too lax when algorithm is specified but hash value is in incorrect",
+58 silly audit report       severity: 'low',
+58 silly audit report       vulnerable_versions: '<5.28.4',
+58 silly audit report       cwe: [Array],
+58 silly audit report       cvss: [Object]
+58 silly audit report     },
+58 silly audit report     {
+58 silly audit report       id: 1096891,
+58 silly audit report       url: 'https://github.com/advisories/GHSA-m4v8-wqvr-p9f7',
+58 silly audit report       title: "Undici's Proxy-Authorization header not cleared on cross-origin redirect for dispatch, request, stream, pipeline",
+58 silly audit report       severity: 'low',
+58 silly audit report       vulnerable_versions: '<5.28.4',
+58 silly audit report       cwe: [Array],
+58 silly audit report       cvss: [Object]
+58 silly audit report     },
+58 silly audit report     {
+58 silly audit report       id: 1096655,
+58 silly audit report       url: 'https://github.com/advisories/GHSA-3787-6prv-h9w3',
+58 silly audit report       title: 'Undici proxy-authorization header not cleared on cross-origin redirect in fetch',
+58 silly audit report       severity: 'low',
+58 silly audit report       vulnerable_versions: '<=5.28.2',
+58 silly audit report       cwe: [Array],
+58 silly audit report       cvss: [Object]
+58 silly audit report     }
+58 silly audit report   ]
+58 silly audit report }
+59 timing metavuln:cache:get:security-advisory:undici:FOaX+CC7JJq5kPRur2FE4GEV4FHb8i74FTDYLtGZZBT8sN6lIqZGqMNhkUs35xOhYmIVH2YsFHz+4jlvtTCz0A== Completed in 91ms
+60 timing metavuln:cache:get:security-advisory:undici:p6KEnAzSYgRrC9Y0px7pDYb8zKV/oLwIhIV70U1NXxORiMajuSQJhOOnkzJXSK/v66KvW8DrO+XCuv9BItEa8A== Completed in 89ms
+61 timing metavuln:cache:get:security-advisory:undici:EdORh1huh3TdvXQsr5ya4IchQ7uSmaClFz6sx4SiOpOsntLvlVQdo9veDug0MyNee1JCIlPK2itUcNdIM08kdg== Completed in 90ms
+62 http fetch GET 200 https://registry.npmjs.org/undici 190ms (cache hit)
+63 timing metavuln:packument:undici Completed in 198ms
+64 timing metavuln:load:security-advisory:undici:1096969 Completed in 4ms
+65 timing metavuln:calculate:security-advisory:undici:1096969 Completed in 203ms
+66 timing metavuln:load:security-advisory:undici:1096891 Completed in 3ms
+67 timing metavuln:calculate:security-advisory:undici:1096891 Completed in 203ms
+68 timing metavuln:load:security-advisory:undici:1096655 Completed in 5ms
+69 timing metavuln:calculate:security-advisory:undici:1096655 Completed in 208ms
+70 timing metavuln:cache:get:security-advisory:@discordjs/rest:CcHzQ8BS+XXKvt1pLYQGmYE2NkwfmIdEFUb70KE3Niygc3IN+SnyckLJ0FIE5q6lqeNHZSQMqBG0I4PpMY6Xwg== Completed in 82ms
+71 timing metavuln:cache:get:security-advisory:discord.js:pTPcGRBFtZLtb76bIhVlzQGGgY291M2VMf6OGsP8yOTXjbGffo+qToK2Fa6O1U91576OfTa2w3RIHtHFxGxVUw== Completed in 82ms
+72 http fetch GET 200 https://registry.npmjs.org/@discordjs%2frest 187ms (cache hit)
+73 timing metavuln:packument:@discordjs/rest Completed in 384ms
+74 timing metavuln:load:security-advisory:@discordjs/rest:FOaX+CC7JJq5kPRur2FE4GEV4FHb8i74FTDYLtGZZBT8sN6lIqZGqMNhkUs35xOhYmIVH2YsFHz+4jlvtTCz0A== Completed in 96ms
+75 timing metavuln:calculate:security-advisory:@discordjs/rest:FOaX+CC7JJq5kPRur2FE4GEV4FHb8i74FTDYLtGZZBT8sN6lIqZGqMNhkUs35xOhYmIVH2YsFHz+4jlvtTCz0A== Completed in 573ms
+76 http fetch GET 200 https://registry.npmjs.org/discord.js 511ms (cache hit)
+77 timing metavuln:packument:discord.js Completed in 730ms
+78 timing metavuln:load:security-advisory:discord.js:FOaX+CC7JJq5kPRur2FE4GEV4FHb8i74FTDYLtGZZBT8sN6lIqZGqMNhkUs35xOhYmIVH2YsFHz+4jlvtTCz0A== Completed in 177ms
+79 timing metavuln:calculate:security-advisory:discord.js:FOaX+CC7JJq5kPRur2FE4GEV4FHb8i74FTDYLtGZZBT8sN6lIqZGqMNhkUs35xOhYmIVH2YsFHz+4jlvtTCz0A== Completed in 979ms
+80 timing metavuln:cache:get:security-advisory:@discordjs/ws:wT9otLZ0/mKBhiVIPEftYmhIzF3rTr3xjvx3UthvvMFX9XdCptM78CMtwm/MFlPKcmXUMW6vNAvIsgYItgxhEQ== Completed in 399ms
+81 timing metavuln:cache:get:security-advisory:discord.js:+zHm3z452uvtfMZRJh3HaJTVkIxOkgDs0sVQj7psU/xg9FwMI+r4IzshiocKq/fpuUVigh0iORlbp6SPo1OiQw== Completed in 400ms
+82 timing metavuln:load:security-advisory:discord.js:CcHzQ8BS+XXKvt1pLYQGmYE2NkwfmIdEFUb70KE3Niygc3IN+SnyckLJ0FIE5q6lqeNHZSQMqBG0I4PpMY6Xwg== Completed in 104ms
+83 timing metavuln:calculate:security-advisory:discord.js:CcHzQ8BS+XXKvt1pLYQGmYE2NkwfmIdEFUb70KE3Niygc3IN+SnyckLJ0FIE5q6lqeNHZSQMqBG0I4PpMY6Xwg== Completed in 504ms
+84 http fetch GET 200 https://registry.npmjs.org/@discordjs%2fws 592ms (cache hit)
+85 timing metavuln:packument:@discordjs/ws Completed in 608ms
+86 timing metavuln:load:security-advisory:@discordjs/ws:CcHzQ8BS+XXKvt1pLYQGmYE2NkwfmIdEFUb70KE3Niygc3IN+SnyckLJ0FIE5q6lqeNHZSQMqBG0I4PpMY6Xwg== Completed in 85ms
+87 timing metavuln:calculate:security-advisory:@discordjs/ws:CcHzQ8BS+XXKvt1pLYQGmYE2NkwfmIdEFUb70KE3Niygc3IN+SnyckLJ0FIE5q6lqeNHZSQMqBG0I4PpMY6Xwg== Completed in 694ms
+88 timing metavuln:cache:get:security-advisory:discord.js:7dlm+kly4ayMHr6z+yE5mX5uAmdRd/a1HJkYzj7n0gSPAZd6qzmZkiG4FJJdslOsCdHrTi745VNAyaMq4X4Z1Q== Completed in 102ms
+89 timing metavuln:load:security-advisory:discord.js:wT9otLZ0/mKBhiVIPEftYmhIzF3rTr3xjvx3UthvvMFX9XdCptM78CMtwm/MFlPKcmXUMW6vNAvIsgYItgxhEQ== Completed in 210ms
+90 timing metavuln:calculate:security-advisory:discord.js:wT9otLZ0/mKBhiVIPEftYmhIzF3rTr3xjvx3UthvvMFX9XdCptM78CMtwm/MFlPKcmXUMW6vNAvIsgYItgxhEQ== Completed in 312ms
+91 timing auditReport:init Completed in 3497ms
+92 timing reify:audit Completed in 4404ms
+93 timing reify Completed in 5405ms
+94 timing command:install Completed in 6206ms
+95 verbose exit 0
+96 timing npm Completed in 8103ms
+97 info ok

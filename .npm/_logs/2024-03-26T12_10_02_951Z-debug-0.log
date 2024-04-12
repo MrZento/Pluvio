@@ -1,0 +1,407 @@
+0 verbose cli /usr/local/bin/node /usr/local/bin/npm
+1 info using npm@9.8.1
+2 info using node@v19.9.0
+3 timing npm:load:whichnode Completed in 1ms
+4 timing config:load:defaults Completed in 1ms
+5 timing config:load:file:/usr/local/lib/node_modules/npm/npmrc Completed in 3ms
+6 timing config:load:builtin Completed in 3ms
+7 timing config:load:cli Completed in 2ms
+8 timing config:load:env Completed in 0ms
+9 timing config:load:project Completed in 1ms
+10 timing config:load:file:/home/container/.npmrc Completed in 1ms
+11 timing config:load:user Completed in 1ms
+12 timing config:load:file:/usr/local/etc/npmrc Completed in 0ms
+13 timing config:load:global Completed in 0ms
+14 timing config:load:setEnvs Completed in 1ms
+15 timing config:load Completed in 10ms
+16 timing npm:load:configload Completed in 10ms
+17 timing config:load:flatten Completed in 2ms
+18 timing npm:load:mkdirpcache Completed in 1ms
+19 timing npm:load:mkdirplogs Completed in 0ms
+20 verbose title npm install
+21 verbose argv "install"
+22 timing npm:load:setTitle Completed in 1ms
+23 timing npm:load:display Completed in 0ms
+24 verbose logfile logs-max:10 dir:/home/container/.npm/_logs/2024-03-26T12_10_02_951Z-
+25 verbose logfile /home/container/.npm/_logs/2024-03-26T12_10_02_951Z-debug-0.log
+26 timing npm:load:logFile Completed in 10ms
+27 timing npm:load:timers Completed in 0ms
+28 timing npm:load:configScope Completed in 0ms
+29 timing npm:load Completed in 91ms
+30 timing arborist:ctor Completed in 0ms
+31 silly logfile done cleaning log files
+32 timing idealTree:init Completed in 95ms
+33 timing idealTree:userRequests Completed in 0ms
+34 silly idealTree buildDeps
+35 timing idealTree:#root Completed in 0ms
+36 timing idealTree:buildDeps Completed in 1ms
+37 timing idealTree:fixDepFlags Completed in 0ms
+38 timing idealTree Completed in 100ms
+39 timing reify:loadTrees Completed in 105ms
+40 timing reify:diffTrees Completed in 1ms
+41 silly reify moves {}
+42 timing reify:retireShallow Completed in 1ms
+43 timing reify:createSparse Completed in 7ms
+44 timing reify:loadBundles Completed in 1ms
+45 silly audit bulk request {
+45 silly audit   '@discordjs/builders': [ '1.7.0' ],
+45 silly audit   '@discordjs/collection': [ '1.5.3', '2.0.0' ],
+45 silly audit   '@discordjs/formatters': [ '0.3.3' ],
+45 silly audit   '@discordjs/rest': [ '2.2.0' ],
+45 silly audit   '@discordjs/util': [ '1.0.2' ],
+45 silly audit   '@discordjs/ws': [ '1.0.2' ],
+45 silly audit   '@fastify/busboy': [ '2.1.1' ],
+45 silly audit   '@mongodb-js/saslprep': [ '1.1.5' ],
+45 silly audit   '@sapphire/async-queue': [ '1.5.2' ],
+45 silly audit   '@sapphire/shapeshift': [ '3.9.6' ],
+45 silly audit   '@sapphire/snowflake': [ '3.5.1' ],
+45 silly audit   '@types/node': [ '20.11.28' ],
+45 silly audit   '@types/webidl-conversions': [ '7.0.3' ],
+45 silly audit   '@types/whatwg-url': [ '8.2.2' ],
+45 silly audit   '@types/ws': [ '8.5.9' ],
+45 silly audit   '@vladfrangu/async_event_emitter': [ '2.2.4' ],
+45 silly audit   'ansi-styles': [ '3.2.1' ],
+45 silly audit   bson: [ '5.5.1' ],
+45 silly audit   chalk: [ '2.4.2' ],
+45 silly audit   'color-convert': [ '1.9.3' ],
+45 silly audit   'color-name': [ '1.1.3' ],
+45 silly audit   debug: [ '4.3.4' ],
+45 silly audit   ms: [ '2.1.2', '2.1.3' ],
+45 silly audit   'discord-api-types': [ '0.37.61' ],
+45 silly audit   'discord.js': [ '14.14.1' ],
+45 silly audit   dotenv: [ '16.4.5' ],
+45 silly audit   'escape-string-regexp': [ '1.0.5' ],
+45 silly audit   'fast-deep-equal': [ '3.1.3' ],
+45 silly audit   'has-flag': [ '3.0.0' ],
+45 silly audit   'ip-address': [ '9.0.5' ],
+45 silly audit   jsbn: [ '1.1.0' ],
+45 silly audit   kareem: [ '2.5.1' ],
+45 silly audit   lodash: [ '4.17.21' ],
+45 silly audit   'lodash.snakecase': [ '4.1.1' ],
+45 silly audit   'magic-bytes.js': [ '1.10.0' ],
+45 silly audit   'memory-pager': [ '1.5.0' ],
+45 silly audit   mongodb: [ '5.9.1' ],
+45 silly audit   'mongodb-connection-string-url': [ '2.6.0' ],
+45 silly audit   mongoose: [ '7.6.10' ],
+45 silly audit   mpath: [ '0.9.0' ],
+45 silly audit   mquery: [ '5.0.0' ],
+45 silly audit   punycode: [ '2.3.1' ],
+45 silly audit   sift: [ '16.0.1' ],
+45 silly audit   'smart-buffer': [ '4.2.0' ],
+45 silly audit   socks: [ '2.8.1' ],
+45 silly audit   'sparse-bitfield': [ '3.0.3' ],
+45 silly audit   'sprintf-js': [ '1.1.3' ],
+45 silly audit   'supports-color': [ '5.5.0' ],
+45 silly audit   tr46: [ '3.0.0' ],
+45 silly audit   'ts-mixer': [ '6.0.4' ],
+45 silly audit   tslib: [ '2.6.2' ],
+45 silly audit   undici: [ '5.27.2' ],
+45 silly audit   'undici-types': [ '5.26.5' ],
+45 silly audit   'webidl-conversions': [ '7.0.0' ],
+45 silly audit   'whatwg-url': [ '11.0.0' ],
+45 silly audit   ws: [ '8.14.2' ]
+45 silly audit }
+46 silly tarball no local data for ws@https://registry.npmjs.org/ws/-/ws-8.14.2.tgz. Extracting by manifest.
+47 silly tarball no local data for webidl-conversions@https://registry.npmjs.org/webidl-conversions/-/webidl-conversions-7.0.0.tgz. Extracting by manifest.
+48 silly tarball no local data for undici-types@https://registry.npmjs.org/undici-types/-/undici-types-5.26.5.tgz. Extracting by manifest.
+49 silly tarball no local data for whatwg-url@https://registry.npmjs.org/whatwg-url/-/whatwg-url-11.0.0.tgz. Extracting by manifest.
+50 silly tarball no local data for undici@https://registry.npmjs.org/undici/-/undici-5.27.2.tgz. Extracting by manifest.
+51 silly tarball no local data for tslib@https://registry.npmjs.org/tslib/-/tslib-2.6.2.tgz. Extracting by manifest.
+52 silly tarball no local data for ts-mixer@https://registry.npmjs.org/ts-mixer/-/ts-mixer-6.0.4.tgz. Extracting by manifest.
+53 silly tarball no local data for sprintf-js@https://registry.npmjs.org/sprintf-js/-/sprintf-js-1.1.3.tgz. Extracting by manifest.
+54 silly tarball no local data for supports-color@https://registry.npmjs.org/supports-color/-/supports-color-5.5.0.tgz. Extracting by manifest.
+55 silly tarball no local data for sparse-bitfield@https://registry.npmjs.org/sparse-bitfield/-/sparse-bitfield-3.0.3.tgz. Extracting by manifest.
+56 silly tarball no local data for socks@https://registry.npmjs.org/socks/-/socks-2.8.1.tgz. Extracting by manifest.
+57 silly tarball no local data for sift@https://registry.npmjs.org/sift/-/sift-16.0.1.tgz. Extracting by manifest.
+58 silly tarball no local data for punycode@https://registry.npmjs.org/punycode/-/punycode-2.3.1.tgz. Extracting by manifest.
+59 silly tarball no local data for smart-buffer@https://registry.npmjs.org/smart-buffer/-/smart-buffer-4.2.0.tgz. Extracting by manifest.
+60 silly tarball no local data for ms@https://registry.npmjs.org/ms/-/ms-2.1.3.tgz. Extracting by manifest.
+61 silly tarball no local data for tr46@https://registry.npmjs.org/tr46/-/tr46-3.0.0.tgz. Extracting by manifest.
+62 silly tarball no local data for mongoose@https://registry.npmjs.org/mongoose/-/mongoose-7.6.10.tgz. Extracting by manifest.
+63 silly tarball no local data for mquery@https://registry.npmjs.org/mquery/-/mquery-5.0.0.tgz. Extracting by manifest.
+64 silly tarball no local data for mpath@https://registry.npmjs.org/mpath/-/mpath-0.9.0.tgz. Extracting by manifest.
+65 silly tarball no local data for mongodb-connection-string-url@https://registry.npmjs.org/mongodb-connection-string-url/-/mongodb-connection-string-url-2.6.0.tgz. Extracting by manifest.
+66 silly tarball no local data for mongodb@https://registry.npmjs.org/mongodb/-/mongodb-5.9.1.tgz. Extracting by manifest.
+67 silly tarball no local data for memory-pager@https://registry.npmjs.org/memory-pager/-/memory-pager-1.5.0.tgz. Extracting by manifest.
+68 silly tarball no local data for magic-bytes.js@https://registry.npmjs.org/magic-bytes.js/-/magic-bytes.js-1.10.0.tgz. Extracting by manifest.
+69 silly tarball no local data for lodash.snakecase@https://registry.npmjs.org/lodash.snakecase/-/lodash.snakecase-4.1.1.tgz. Extracting by manifest.
+70 silly tarball no local data for lodash@https://registry.npmjs.org/lodash/-/lodash-4.17.21.tgz. Extracting by manifest.
+71 silly tarball no local data for kareem@https://registry.npmjs.org/kareem/-/kareem-2.5.1.tgz. Extracting by manifest.
+72 silly tarball no local data for jsbn@https://registry.npmjs.org/jsbn/-/jsbn-1.1.0.tgz. Extracting by manifest.
+73 silly tarball no local data for ip-address@https://registry.npmjs.org/ip-address/-/ip-address-9.0.5.tgz. Extracting by manifest.
+74 silly tarball no local data for fast-deep-equal@https://registry.npmjs.org/fast-deep-equal/-/fast-deep-equal-3.1.3.tgz. Extracting by manifest.
+75 silly tarball no local data for dotenv@https://registry.npmjs.org/dotenv/-/dotenv-16.4.5.tgz. Extracting by manifest.
+76 silly tarball no local data for has-flag@https://registry.npmjs.org/has-flag/-/has-flag-3.0.0.tgz. Extracting by manifest.
+77 silly tarball no local data for discord.js@https://registry.npmjs.org/discord.js/-/discord.js-14.14.1.tgz. Extracting by manifest.
+78 silly tarball no local data for escape-string-regexp@https://registry.npmjs.org/escape-string-regexp/-/escape-string-regexp-1.0.5.tgz. Extracting by manifest.
+79 silly tarball no local data for debug@https://registry.npmjs.org/debug/-/debug-4.3.4.tgz. Extracting by manifest.
+80 silly tarball no local data for discord-api-types@https://registry.npmjs.org/discord-api-types/-/discord-api-types-0.37.61.tgz. Extracting by manifest.
+81 silly tarball no local data for color-name@https://registry.npmjs.org/color-name/-/color-name-1.1.3.tgz. Extracting by manifest.
+82 silly tarball no local data for color-convert@https://registry.npmjs.org/color-convert/-/color-convert-1.9.3.tgz. Extracting by manifest.
+83 silly tarball no local data for chalk@https://registry.npmjs.org/chalk/-/chalk-2.4.2.tgz. Extracting by manifest.
+84 silly tarball no local data for bson@https://registry.npmjs.org/bson/-/bson-5.5.1.tgz. Extracting by manifest.
+85 silly tarball no local data for ansi-styles@https://registry.npmjs.org/ansi-styles/-/ansi-styles-3.2.1.tgz. Extracting by manifest.
+86 silly tarball no local data for @types/ws@https://registry.npmjs.org/@types/ws/-/ws-8.5.9.tgz. Extracting by manifest.
+87 silly tarball no local data for @types/whatwg-url@https://registry.npmjs.org/@types/whatwg-url/-/whatwg-url-8.2.2.tgz. Extracting by manifest.
+88 silly tarball no local data for @vladfrangu/async_event_emitter@https://registry.npmjs.org/@vladfrangu/async_event_emitter/-/async_event_emitter-2.2.4.tgz. Extracting by manifest.
+89 silly tarball no local data for @types/webidl-conversions@https://registry.npmjs.org/@types/webidl-conversions/-/webidl-conversions-7.0.3.tgz. Extracting by manifest.
+90 silly tarball no local data for @types/node@https://registry.npmjs.org/@types/node/-/node-20.11.28.tgz. Extracting by manifest.
+91 silly tarball no local data for @sapphire/snowflake@https://registry.npmjs.org/@sapphire/snowflake/-/snowflake-3.5.1.tgz. Extracting by manifest.
+92 silly tarball no local data for @sapphire/shapeshift@https://registry.npmjs.org/@sapphire/shapeshift/-/shapeshift-3.9.6.tgz. Extracting by manifest.
+93 silly tarball no local data for @sapphire/async-queue@https://registry.npmjs.org/@sapphire/async-queue/-/async-queue-1.5.2.tgz. Extracting by manifest.
+94 silly tarball no local data for @mongodb-js/saslprep@https://registry.npmjs.org/@mongodb-js/saslprep/-/saslprep-1.1.5.tgz. Extracting by manifest.
+95 silly tarball no local data for @discordjs/ws@https://registry.npmjs.org/@discordjs/ws/-/ws-1.0.2.tgz. Extracting by manifest.
+96 silly tarball no local data for @discordjs/util@https://registry.npmjs.org/@discordjs/util/-/util-1.0.2.tgz. Extracting by manifest.
+97 silly tarball no local data for @fastify/busboy@https://registry.npmjs.org/@fastify/busboy/-/busboy-2.1.1.tgz. Extracting by manifest.
+98 silly tarball no local data for @discordjs/rest@https://registry.npmjs.org/@discordjs/rest/-/rest-2.2.0.tgz. Extracting by manifest.
+99 silly tarball no local data for @discordjs/formatters@https://registry.npmjs.org/@discordjs/formatters/-/formatters-0.3.3.tgz. Extracting by manifest.
+100 silly tarball no local data for @discordjs/collection@https://registry.npmjs.org/@discordjs/collection/-/collection-1.5.3.tgz. Extracting by manifest.
+101 silly tarball no local data for @discordjs/builders@https://registry.npmjs.org/@discordjs/builders/-/builders-1.7.0.tgz. Extracting by manifest.
+102 silly tarball no local data for ms@https://registry.npmjs.org/ms/-/ms-2.1.2.tgz. Extracting by manifest.
+103 silly tarball no local data for @discordjs/collection@https://registry.npmjs.org/@discordjs/collection/-/collection-2.0.0.tgz. Extracting by manifest.
+104 silly tarball no local data for @discordjs/collection@https://registry.npmjs.org/@discordjs/collection/-/collection-2.0.0.tgz. Extracting by manifest.
+105 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 503ms
+106 timing auditReport:getReport Completed in 506ms
+107 silly audit report {
+107 silly audit report   undici: [
+107 silly audit report     {
+107 silly audit report       id: 1096655,
+107 silly audit report       url: 'https://github.com/advisories/GHSA-3787-6prv-h9w3',
+107 silly audit report       title: 'Undici proxy-authorization header not cleared on cross-origin redirect in fetch',
+107 silly audit report       severity: 'low',
+107 silly audit report       vulnerable_versions: '<=5.28.2',
+107 silly audit report       cwe: [Array],
+107 silly audit report       cvss: [Object]
+107 silly audit report     }
+107 silly audit report   ]
+107 silly audit report }
+108 timing metavuln:cache:get:security-advisory:undici:EdORh1huh3TdvXQsr5ya4IchQ7uSmaClFz6sx4SiOpOsntLvlVQdo9veDug0MyNee1JCIlPK2itUcNdIM08kdg== Completed in 181ms
+109 http fetch GET 200 https://registry.npmjs.org/ws/-/ws-8.14.2.tgz 1070ms (cache miss)
+110 http fetch GET 200 https://registry.npmjs.org/ms/-/ms-2.1.3.tgz 1068ms (cache miss)
+111 timing reifyNode:node_modules/ms Completed in 1200ms
+112 timing reifyNode:node_modules/ws Completed in 1278ms
+113 http fetch GET 200 https://registry.npmjs.org/supports-color/-/supports-color-5.5.0.tgz 1166ms (cache miss)
+114 timing reifyNode:node_modules/supports-color Completed in 1294ms
+115 http fetch GET 200 https://registry.npmjs.org/sparse-bitfield/-/sparse-bitfield-3.0.3.tgz 1166ms (cache miss)
+116 timing reifyNode:node_modules/sparse-bitfield Completed in 1295ms
+117 http fetch GET 200 https://registry.npmjs.org/jsbn/-/jsbn-1.1.0.tgz 1158ms (cache miss)
+118 timing reifyNode:node_modules/jsbn Completed in 1296ms
+119 http fetch GET 200 https://registry.npmjs.org/memory-pager/-/memory-pager-1.5.0.tgz 1169ms (cache miss)
+120 timing reifyNode:node_modules/memory-pager Completed in 1304ms
+121 http fetch GET 200 https://registry.npmjs.org/color-name/-/color-name-1.1.3.tgz 1128ms (cache miss)
+122 timing reifyNode:node_modules/color-name Completed in 1305ms
+123 http fetch GET 200 https://registry.npmjs.org/ansi-styles/-/ansi-styles-3.2.1.tgz 1125ms (cache miss)
+124 timing reifyNode:node_modules/ansi-styles Completed in 1306ms
+125 http fetch GET 200 https://registry.npmjs.org/@sapphire/async-queue/-/async-queue-1.5.2.tgz 1121ms (cache miss)
+126 http fetch GET 200 https://registry.npmjs.org/punycode/-/punycode-2.3.1.tgz 1180ms (cache miss)
+127 timing reifyNode:node_modules/punycode Completed in 1310ms
+128 http fetch GET 200 https://registry.npmjs.org/tr46/-/tr46-3.0.0.tgz 1179ms (cache miss)
+129 http fetch GET 200 https://registry.npmjs.org/fast-deep-equal/-/fast-deep-equal-3.1.3.tgz 1144ms (cache miss)
+130 timing reifyNode:node_modules/fast-deep-equal Completed in 1312ms
+131 http fetch GET 200 https://registry.npmjs.org/has-flag/-/has-flag-3.0.0.tgz 1144ms (cache miss)
+132 timing reifyNode:node_modules/has-flag Completed in 1314ms
+133 http fetch GET 200 https://registry.npmjs.org/escape-string-regexp/-/escape-string-regexp-1.0.5.tgz 1143ms (cache miss)
+134 timing reifyNode:node_modules/escape-string-regexp Completed in 1314ms
+135 http fetch GET 200 https://registry.npmjs.org/@types/webidl-conversions/-/webidl-conversions-7.0.3.tgz 1184ms (cache miss)
+136 timing reifyNode:node_modules/@types/webidl-conversions Completed in 1367ms
+137 http fetch GET 200 https://registry.npmjs.org/webidl-conversions/-/webidl-conversions-7.0.0.tgz 1253ms (cache miss)
+138 timing reifyNode:node_modules/webidl-conversions Completed in 1376ms
+139 http fetch GET 200 https://registry.npmjs.org/@types/ws/-/ws-8.5.9.tgz 1200ms (cache miss)
+140 timing reifyNode:node_modules/@types/ws Completed in 1381ms
+141 http fetch GET 200 https://registry.npmjs.org/lodash.snakecase/-/lodash.snakecase-4.1.1.tgz 1249ms (cache miss)
+142 timing reifyNode:node_modules/lodash.snakecase Completed in 1385ms
+143 http fetch GET 200 https://registry.npmjs.org/@discordjs/util/-/util-1.0.2.tgz 1201ms (cache miss)
+144 timing reifyNode:node_modules/@discordjs/util Completed in 1388ms
+145 http fetch GET 200 https://registry.npmjs.org/ms/-/ms-2.1.2.tgz 1195ms (cache miss)
+146 timing reifyNode:node_modules/debug/node_modules/ms Completed in 1389ms
+147 timing reifyNode:node_modules/tr46 Completed in 1394ms
+148 http fetch GET 200 https://registry.npmjs.org/@types/whatwg-url/-/whatwg-url-8.2.2.tgz 1213ms (cache miss)
+149 timing reifyNode:node_modules/@types/whatwg-url Completed in 1394ms
+150 http fetch GET 200 https://registry.npmjs.org/kareem/-/kareem-2.5.1.tgz 1266ms (cache miss)
+151 timing reifyNode:node_modules/kareem Completed in 1403ms
+152 http fetch GET 200 https://registry.npmjs.org/color-convert/-/color-convert-1.9.3.tgz 1290ms (cache miss)
+153 timing reifyNode:node_modules/color-convert Completed in 1468ms
+154 http fetch GET 200 https://registry.npmjs.org/chalk/-/chalk-2.4.2.tgz 1295ms (cache miss)
+155 timing reifyNode:node_modules/chalk Completed in 1475ms
+156 http fetch GET 200 https://registry.npmjs.org/@discordjs/formatters/-/formatters-0.3.3.tgz 1289ms (cache miss)
+157 http fetch GET 200 https://registry.npmjs.org/mongodb-connection-string-url/-/mongodb-connection-string-url-2.6.0.tgz 1349ms (cache miss)
+158 timing reifyNode:node_modules/mongodb-connection-string-url Completed in 1482ms
+159 timing reifyNode:node_modules/@sapphire/async-queue Completed in 1487ms
+160 http fetch GET 200 https://registry.npmjs.org/mpath/-/mpath-0.9.0.tgz 1365ms (cache miss)
+161 timing reifyNode:node_modules/mpath Completed in 1497ms
+162 timing reifyNode:node_modules/@discordjs/formatters Completed in 1498ms
+163 http fetch GET 200 https://registry.npmjs.org/sprintf-js/-/sprintf-js-1.1.3.tgz 1381ms (cache miss)
+164 timing reifyNode:node_modules/sprintf-js Completed in 1508ms
+165 http fetch GET 200 https://registry.npmjs.org/dotenv/-/dotenv-16.4.5.tgz 1341ms (cache miss)
+166 timing reifyNode:node_modules/dotenv Completed in 1510ms
+167 http fetch GET 200 https://registry.npmjs.org/@discordjs/collection/-/collection-1.5.3.tgz 1378ms (cache miss)
+168 http fetch GET 200 https://registry.npmjs.org/debug/-/debug-4.3.4.tgz 1410ms (cache miss)
+169 timing reifyNode:node_modules/debug Completed in 1583ms
+170 timing reifyNode:node_modules/@discordjs/collection Completed in 1583ms
+171 http fetch GET 200 https://registry.npmjs.org/@sapphire/snowflake/-/snowflake-3.5.1.tgz 1410ms (cache miss)
+172 timing reifyNode:node_modules/@sapphire/snowflake Completed in 1593ms
+173 http fetch GET 200 https://registry.npmjs.org/@discordjs/collection/-/collection-2.0.0.tgz 1400ms (cache miss)
+174 timing reifyNode:node_modules/@discordjs/ws/node_modules/@discordjs/collection Completed in 1594ms
+175 http fetch GET 200 https://registry.npmjs.org/tslib/-/tslib-2.6.2.tgz 1472ms (cache miss)
+176 timing reifyNode:node_modules/tslib Completed in 1597ms
+177 http fetch GET 200 https://registry.npmjs.org/undici 1167ms (cache miss)
+178 timing metavuln:packument:undici Completed in 1172ms
+179 timing metavuln:load:security-advisory:undici:1096655 Completed in 7ms
+180 http fetch GET 200 https://registry.npmjs.org/smart-buffer/-/smart-buffer-4.2.0.tgz 1560ms (cache miss)
+181 timing reifyNode:node_modules/smart-buffer Completed in 1692ms
+182 http fetch GET 200 https://registry.npmjs.org/magic-bytes.js/-/magic-bytes.js-1.10.0.tgz 1557ms (cache miss)
+183 timing reifyNode:node_modules/magic-bytes.js Completed in 1698ms
+184 http fetch GET 200 https://registry.npmjs.org/whatwg-url/-/whatwg-url-11.0.0.tgz 1589ms (cache miss)
+185 timing reifyNode:node_modules/whatwg-url Completed in 1714ms
+186 http fetch GET 200 https://registry.npmjs.org/@discordjs/collection/-/collection-2.0.0.tgz 1527ms (cache miss)
+187 timing reifyNode:node_modules/@discordjs/rest/node_modules/@discordjs/collection Completed in 1766ms
+188 http fetch GET 200 https://registry.npmjs.org/mquery/-/mquery-5.0.0.tgz 1646ms (cache miss)
+189 timing reifyNode:node_modules/mquery Completed in 1778ms
+190 http fetch GET 200 https://registry.npmjs.org/ts-mixer/-/ts-mixer-6.0.4.tgz 1675ms (cache miss)
+191 timing reifyNode:node_modules/ts-mixer Completed in 1801ms
+192 http fetch GET 200 https://registry.npmjs.org/undici-types/-/undici-types-5.26.5.tgz 1689ms (cache miss)
+193 timing reifyNode:node_modules/undici-types Completed in 1813ms
+194 http fetch GET 200 https://registry.npmjs.org/@vladfrangu/async_event_emitter/-/async_event_emitter-2.2.4.tgz 1631ms (cache miss)
+195 http fetch GET 200 https://registry.npmjs.org/@fastify/busboy/-/busboy-2.1.1.tgz 1628ms (cache miss)
+196 timing reifyNode:node_modules/@fastify/busboy Completed in 1817ms
+197 timing metavuln:cache:put:security-advisory:undici:EdORh1huh3TdvXQsr5ya4IchQ7uSmaClFz6sx4SiOpOsntLvlVQdo9veDug0MyNee1JCIlPK2itUcNdIM08kdg== Completed in 191ms
+198 timing metavuln:calculate:security-advisory:undici:1096655 Completed in 1372ms
+199 http fetch GET 200 https://registry.npmjs.org/@discordjs/builders/-/builders-1.7.0.tgz 1682ms (cache miss)
+200 timing reifyNode:node_modules/@vladfrangu/async_event_emitter Completed in 1880ms
+201 timing reifyNode:node_modules/@discordjs/builders Completed in 1879ms
+202 timing metavuln:cache:get:security-advisory:@discordjs/rest:RtPXrynB2rjvm/kV4ifMfcuvd5DtNjeNmHhPo+yWw+NHtvhciSULnqDD1MwmqS9RUte+DL6mD8U79++HRWkEVQ== Completed in 9ms
+203 timing metavuln:cache:get:security-advisory:discord.js:fxvlPOtUjd3o3IaHMESyGb/mvukOgIxz5DmHEjIX83hQ3vYWPAZ9RGpw9a8HRxvWwZ+C+8uP9Cvs+fcl9CLIFg== Completed in 8ms
+204 http fetch GET 200 https://registry.npmjs.org/socks/-/socks-2.8.1.tgz 1953ms (cache miss)
+205 timing reifyNode:node_modules/socks Completed in 2083ms
+206 http fetch GET 200 https://registry.npmjs.org/@mongodb-js/saslprep/-/saslprep-1.1.5.tgz 1916ms (cache miss)
+207 timing reifyNode:node_modules/@mongodb-js/saslprep Completed in 2107ms
+208 http fetch GET 200 https://registry.npmjs.org/@discordjs/ws/-/ws-1.0.2.tgz 1925ms (cache miss)
+209 timing reifyNode:node_modules/@discordjs/ws Completed in 2112ms
+210 http fetch GET 200 https://registry.npmjs.org/sift/-/sift-16.0.1.tgz 1990ms (cache miss)
+211 http fetch GET 200 https://registry.npmjs.org/ip-address/-/ip-address-9.0.5.tgz 2031ms (cache miss)
+212 timing reifyNode:node_modules/ip-address Completed in 2170ms
+213 timing reifyNode:node_modules/sift Completed in 2173ms
+214 http fetch GET 200 https://registry.npmjs.org/@sapphire/shapeshift/-/shapeshift-3.9.6.tgz 2014ms (cache miss)
+215 timing reifyNode:node_modules/@sapphire/shapeshift Completed in 2198ms
+216 http fetch GET 200 https://registry.npmjs.org/@discordjs/rest/-/rest-2.2.0.tgz 2093ms (cache miss)
+217 timing reifyNode:node_modules/@discordjs/rest Completed in 2282ms
+218 http fetch GET 200 https://registry.npmjs.org/npm 2694ms (cache miss)
+219 http fetch GET 200 https://registry.npmjs.org/@discordjs%2frest 901ms (cache miss)
+220 timing metavuln:packument:@discordjs/rest Completed in 916ms
+221 timing metavuln:load:security-advisory:@discordjs/rest:EdORh1huh3TdvXQsr5ya4IchQ7uSmaClFz6sx4SiOpOsntLvlVQdo9veDug0MyNee1JCIlPK2itUcNdIM08kdg== Completed in 280ms
+222 timing metavuln:cache:put:security-advisory:@discordjs/rest:RtPXrynB2rjvm/kV4ifMfcuvd5DtNjeNmHhPo+yWw+NHtvhciSULnqDD1MwmqS9RUte+DL6mD8U79++HRWkEVQ== Completed in 51ms
+223 timing metavuln:calculate:security-advisory:@discordjs/rest:EdORh1huh3TdvXQsr5ya4IchQ7uSmaClFz6sx4SiOpOsntLvlVQdo9veDug0MyNee1JCIlPK2itUcNdIM08kdg== Completed in 1247ms
+224 http fetch GET 200 https://registry.npmjs.org/@types/node/-/node-20.11.28.tgz 2999ms (cache miss)
+225 http fetch GET 200 https://registry.npmjs.org/bson/-/bson-5.5.1.tgz 3008ms (cache miss)
+226 timing reifyNode:node_modules/@types/node Completed in 3189ms
+227 timing reifyNode:node_modules/bson Completed in 3193ms
+228 http fetch GET 200 https://registry.npmjs.org/discord.js 1524ms (cache miss)
+229 timing metavuln:packument:discord.js Completed in 1600ms
+230 timing metavuln:load:security-advisory:discord.js:EdORh1huh3TdvXQsr5ya4IchQ7uSmaClFz6sx4SiOpOsntLvlVQdo9veDug0MyNee1JCIlPK2itUcNdIM08kdg== Completed in 199ms
+231 timing metavuln:cache:put:security-advisory:discord.js:fxvlPOtUjd3o3IaHMESyGb/mvukOgIxz5DmHEjIX83hQ3vYWPAZ9RGpw9a8HRxvWwZ+C+8uP9Cvs+fcl9CLIFg== Completed in 24ms
+232 timing metavuln:calculate:security-advisory:discord.js:EdORh1huh3TdvXQsr5ya4IchQ7uSmaClFz6sx4SiOpOsntLvlVQdo9veDug0MyNee1JCIlPK2itUcNdIM08kdg== Completed in 1824ms
+233 timing metavuln:cache:get:security-advisory:@discordjs/ws:ejUu2sON2KT8OI1xcVt7Ed/Nv7S9eOmY4v7nj+DrhfFO+OP/R5R/e1Wf7Fs0d1zltHTFdq2ni8SxXWEoK7sdxA== Completed in 7ms
+234 timing metavuln:cache:get:security-advisory:discord.js:E1IcPhUaeEMSiTSbXLj4wo6Yfu6kaIGsfqBhd36xo35Ba7IPmHI2Ybhztyi13Kw1ya0VZV8BsCO36ualA/FsEg== Completed in 6ms
+235 timing metavuln:load:security-advisory:discord.js:RtPXrynB2rjvm/kV4ifMfcuvd5DtNjeNmHhPo+yWw+NHtvhciSULnqDD1MwmqS9RUte+DL6mD8U79++HRWkEVQ== Completed in 273ms
+236 http fetch GET 200 https://registry.npmjs.org/undici/-/undici-5.27.2.tgz 3863ms (cache miss)
+237 timing reifyNode:node_modules/undici Completed in 3988ms
+238 timing metavuln:cache:put:security-advisory:discord.js:E1IcPhUaeEMSiTSbXLj4wo6Yfu6kaIGsfqBhd36xo35Ba7IPmHI2Ybhztyi13Kw1ya0VZV8BsCO36ualA/FsEg== Completed in 25ms
+239 timing metavuln:calculate:security-advisory:discord.js:RtPXrynB2rjvm/kV4ifMfcuvd5DtNjeNmHhPo+yWw+NHtvhciSULnqDD1MwmqS9RUte+DL6mD8U79++HRWkEVQ== Completed in 304ms
+240 http fetch GET 200 https://registry.npmjs.org/discord.js/-/discord.js-14.14.1.tgz 4324ms (cache miss)
+241 timing reifyNode:node_modules/discord.js Completed in 4498ms
+242 http fetch GET 200 https://registry.npmjs.org/@discordjs%2fws 820ms (cache miss)
+243 timing metavuln:packument:@discordjs/ws Completed in 832ms
+244 timing metavuln:load:security-advisory:@discordjs/ws:RtPXrynB2rjvm/kV4ifMfcuvd5DtNjeNmHhPo+yWw+NHtvhciSULnqDD1MwmqS9RUte+DL6mD8U79++HRWkEVQ== Completed in 138ms
+245 timing metavuln:cache:put:security-advisory:@discordjs/ws:ejUu2sON2KT8OI1xcVt7Ed/Nv7S9eOmY4v7nj+DrhfFO+OP/R5R/e1Wf7Fs0d1zltHTFdq2ni8SxXWEoK7sdxA== Completed in 24ms
+246 timing metavuln:calculate:security-advisory:@discordjs/ws:RtPXrynB2rjvm/kV4ifMfcuvd5DtNjeNmHhPo+yWw+NHtvhciSULnqDD1MwmqS9RUte+DL6mD8U79++HRWkEVQ== Completed in 995ms
+247 timing metavuln:cache:get:security-advisory:discord.js:8sGfj2KHXdcVCURBiJvRPK+uuWwEfA+55cw+l6/vatBCxKbAOh6uD0U000/u1+E8v3/33BAh/SVBvFrZ6WQSNA== Completed in 62ms
+248 timing metavuln:load:security-advisory:discord.js:ejUu2sON2KT8OI1xcVt7Ed/Nv7S9eOmY4v7nj+DrhfFO+OP/R5R/e1Wf7Fs0d1zltHTFdq2ni8SxXWEoK7sdxA== Completed in 141ms
+249 timing metavuln:cache:put:security-advisory:discord.js:8sGfj2KHXdcVCURBiJvRPK+uuWwEfA+55cw+l6/vatBCxKbAOh6uD0U000/u1+E8v3/33BAh/SVBvFrZ6WQSNA== Completed in 19ms
+250 timing metavuln:calculate:security-advisory:discord.js:ejUu2sON2KT8OI1xcVt7Ed/Nv7S9eOmY4v7nj+DrhfFO+OP/R5R/e1Wf7Fs0d1zltHTFdq2ni8SxXWEoK7sdxA== Completed in 223ms
+251 timing auditReport:init Completed in 4530ms
+252 timing reify:audit Completed in 5037ms
+253 http fetch GET 200 https://registry.npmjs.org/mongoose/-/mongoose-7.6.10.tgz 4898ms (cache miss)
+254 timing reifyNode:node_modules/mongoose Completed in 5071ms
+255 http fetch GET 200 https://registry.npmjs.org/mongodb/-/mongodb-5.9.1.tgz 4995ms (cache miss)
+256 timing reifyNode:node_modules/mongodb Completed in 5170ms
+257 http fetch GET 200 https://registry.npmjs.org/lodash/-/lodash-4.17.21.tgz 5442ms (cache miss)
+258 timing reifyNode:node_modules/lodash Completed in 5579ms
+259 http fetch GET 200 https://registry.npmjs.org/discord-api-types/-/discord-api-types-0.37.61.tgz 5417ms (cache miss)
+260 timing reifyNode:node_modules/discord-api-types Completed in 5593ms
+261 timing reify:unpack Completed in 5595ms
+262 timing reify:unretire Completed in 0ms
+263 timing build:queue Completed in 2ms
+264 timing build:deps Completed in 2ms
+265 timing build Completed in 3ms
+266 timing reify:build Completed in 3ms
+267 timing reify:trash Completed in 0ms
+268 timing reify:save Completed in 16ms
+269 timing reify Completed in 5889ms
+270 silly ADD node_modules/ws
+271 silly ADD node_modules/whatwg-url
+272 silly ADD node_modules/webidl-conversions
+273 silly ADD node_modules/undici-types
+274 silly ADD node_modules/undici
+275 silly ADD node_modules/tslib
+276 silly ADD node_modules/ts-mixer
+277 silly ADD node_modules/tr46
+278 silly ADD node_modules/supports-color
+279 silly ADD node_modules/sprintf-js
+280 silly ADD node_modules/sparse-bitfield
+281 silly ADD node_modules/socks
+282 silly ADD node_modules/smart-buffer
+283 silly ADD node_modules/sift
+284 silly ADD node_modules/punycode
+285 silly ADD node_modules/ms
+286 silly ADD node_modules/mquery
+287 silly ADD node_modules/mpath
+288 silly ADD node_modules/mongoose
+289 silly ADD node_modules/mongodb-connection-string-url
+290 silly ADD node_modules/mongodb
+291 silly ADD node_modules/memory-pager
+292 silly ADD node_modules/magic-bytes.js
+293 silly ADD node_modules/lodash.snakecase
+294 silly ADD node_modules/lodash
+295 silly ADD node_modules/kareem
+296 silly ADD node_modules/jsbn
+297 silly ADD node_modules/ip-address
+298 silly ADD node_modules/has-flag
+299 silly ADD node_modules/fast-deep-equal
+300 silly ADD node_modules/escape-string-regexp
+301 silly ADD node_modules/dotenv
+302 silly ADD node_modules/discord.js
+303 silly ADD node_modules/discord-api-types
+304 silly ADD node_modules/debug
+305 silly ADD node_modules/debug/node_modules/ms
+306 silly ADD node_modules/color-name
+307 silly ADD node_modules/color-convert
+308 silly ADD node_modules/chalk
+309 silly ADD node_modules/bson
+310 silly ADD node_modules/ansi-styles
+311 silly ADD node_modules/@vladfrangu/async_event_emitter
+312 silly ADD node_modules/@types/ws
+313 silly ADD node_modules/@types/whatwg-url
+314 silly ADD node_modules/@types/webidl-conversions
+315 silly ADD node_modules/@types/node
+316 silly ADD node_modules/@sapphire/snowflake
+317 silly ADD node_modules/@sapphire/shapeshift
+318 silly ADD node_modules/@sapphire/async-queue
+319 silly ADD node_modules/@mongodb-js/saslprep
+320 silly ADD node_modules/@fastify/busboy
+321 silly ADD node_modules/@discordjs/ws
+322 silly ADD node_modules/@discordjs/ws/node_modules/@discordjs/collection
+323 silly ADD node_modules/@discordjs/util
+324 silly ADD node_modules/@discordjs/rest
+325 silly ADD node_modules/@discordjs/rest/node_modules/@discordjs/collection
+326 silly ADD node_modules/@discordjs/formatters
+327 silly ADD node_modules/@discordjs/collection
+328 silly ADD node_modules/@discordjs/builders
+329 timing command:install Completed in 6018ms
+330 notice
+330 notice New [31mmajor[39m version of npm available! [31m9.8.1[39m -> [32m10.5.0[39m
+330 notice Changelog: [36mhttps://github.com/npm/cli/releases/tag/v10.5.0[39m
+330 notice Run [32mnpm install -g npm@10.5.0[39m to update!
+330 notice
+331 verbose exit 0
+332 timing npm Completed in 6408ms
+333 info ok
