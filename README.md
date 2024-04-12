@@ -1,2 +1,1 @@
-# Pluvio
-Pluvio
+# Visionex Discord Bot
